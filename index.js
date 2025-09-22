@@ -43,7 +43,7 @@ document.write('User: '+  userName.toUpperCase() + "<br/>")
 document.write('Total Income: $' +  income + '<br/>')
 document.write('Total Expenses: $' + expenses)*/
 
-let num1 = Number(prompt("Enter your first number"));
+/*let num1 = Number(prompt("Enter your first number"));
 
 let num2 = Number(prompt("Enter your second number"));
 
@@ -52,8 +52,71 @@ let num2 = Number(prompt("Enter your second number"));
 
 let sum, sub;
 
+
 sum = num1 + num2;
 sub = num1 - num2
 
 document.write("Addition = " + sum + "<br/>")
-document.write("Subtraction =" + sub)
+document.write("Subtraction =" + sub)*/
+
+
+/*let first = prompt ("Enter your first number");
+
+let second = prompt("Enter your second number")
+
+first = parseInt(first, 10)
+second = parseInt(second, 10)
+
+
+let add, sub, mul, divide, mod;
+
+add = first + second;
+sub = first - second;
+mul = first * second;
+divide =  first / second;
+
+mod = first % second;
+
+document.write("addition = " + add + "<br/>")
+
+document.write("multiplication = " + mul)
+document.write (sub)
+document.write(divide)*/
+
+
+ /*let a = 20;
+ let b = 10;
+ let c = a + b;
+
+ document.write("20 + 10 =" +  c  + "<br/>")
+
+ let  d = 20;
+ let e = 10;
+ let f = d - e;
+ document.write("20 - 10 =" + f)*/
+
+
+ let first = prompt("Enter your first number");
+
+ let second = prompt("Enter your second number");
+
+first = parseInt(first, 10);
+second = parseInt(second, 10);
+
+ let add = first + second;
+
+ document.write(first + " +" + second + "=" + add + "<br/>");
+
+
+ let sub = first - second;
+ document.write(first + " -" + second + "=" + sub + "<br/>");
+
+ let mul = first * second;
+ document.write(first + " *" + second + "=" + mul + "<br/>");
+
+  let divide = first / second;
+ document.write(first + " /" + second + "=" + divide + "<br/>");
+
+
+  let modulus = first % second;
+ document.write(first + " %" + second + "=" + modulus + "<br/>");
