@@ -121,7 +121,7 @@ second = parseInt(second, 10);
   let modulus = first % second;
  document.write(first + " %" + second + "=" + modulus + "<br/>");*/
 
-let marks = prompt("Check your grade : ")
+/*let marks = prompt("Check your grade : ")
 
  if (marks >=80 && marks <= 100)
     document.write("A+")
@@ -137,7 +137,21 @@ else if ( marks <50 && marks >= 40)
 else if (marks <40 && marks >= 33 )
      document.write(marks + " =" + " D" + " Grade")
     else 
-      document.write(marks + " =" + " Fail" )
+      document.write(marks + " =" + " Fail" )*/
+    
+
+
+     let num1 = prompt("Enter first Number =")
+     let num2 = prompt("Enter second Number =")
+     let num3 = prompt("Enter third Number =")
+
+     if (num1>num2 && num1 >num3)
+        document.write(num1)
+
+    else if (num2>num1 && num2>num3)
+        document.write(num2)
+    else 
+        document.write(num3)
 
     
 
