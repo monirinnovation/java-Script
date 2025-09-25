@@ -96,7 +96,7 @@ document.write(divide)*/
  document.write("20 - 10 =" + f)*/
 
 
- let first = prompt("Enter your first number");
+ /*let first = prompt("Enter your first number");
 
  let second = prompt("Enter your second number");
 
@@ -119,4 +119,25 @@ second = parseInt(second, 10);
 
 
   let modulus = first % second;
- document.write(first + " %" + second + "=" + modulus + "<br/>");
+ document.write(first + " %" + second + "=" + modulus + "<br/>");*/
+
+let marks = prompt("Check your grade : ")
+
+ if (marks >=80 && marks <= 100)
+    document.write("A+")
+
+else if (marks <80 && marks >= 70)
+    document.write("A-")
+ else if  (marks <70 && marks >=60)
+    document.write("B")
+else if (marks <60 && marks >= 50)
+    document.write("B-")
+else if ( marks <50 && marks >= 40)
+     document.write(marks + " =" + " C" + " Grade")
+else if (marks <40 && marks >= 33 )
+     document.write(marks + " =" + " D" + " Grade")
+    else 
+      document.write(marks + " =" + " Fail" )
+
+    
+
