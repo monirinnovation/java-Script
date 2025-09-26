@@ -141,7 +141,7 @@ else if (marks <40 && marks >= 33 )
     
 
 
-     let num1 = prompt("Enter first Number =")
+    /* let num1 = prompt("Enter first Number =")
      let num2 = prompt("Enter second Number =")
      let num3 = prompt("Enter third Number =")
 
@@ -151,7 +151,16 @@ else if (marks <40 && marks >= 33 )
     else if (num2>num1 && num2>num3)
         document.write(num2)
     else 
-        document.write(num3)
+        document.write(num3)*/
+
+    let letter = prompt("Enter a letter");
+
+    if (letter == "a" || letter== "e" || letter == "i" || letter == "o" || letter == "u" || letter == "A" || letter==  "E" || letter == "I" || letter == "O" || letter== "U")
+        document.write("Vowel")
+    else 
+        document.write("Consonant")
+
+
 
     
 
