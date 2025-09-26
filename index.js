@@ -153,14 +153,18 @@ else if (marks <40 && marks >= 33 )
     else 
         document.write(num3)*/
 
-    let letter = prompt("Enter a letter");
+    let num = prompt("Enter a letter");
 
-    if (letter == "a" || letter== "e" || letter == "i" || letter == "o" || letter == "u" || letter == "A" || letter==  "E" || letter == "I" || letter == "O" || letter== "U")
-        document.write("Vowel")
-    else 
-        document.write("Consonant")
+    // if (letter == "a" || letter== "e" || letter == "i" || letter == "o" || letter == "u" || letter == "A" || letter==  "E" || letter == "I" || letter == "O" || letter== "U")
+    //     document.write("Vowel")
+    // else 
+    //     document.write("Consonant")
 
+    // ternary operator
 
+    let result = num > 0 ? "Positive" : num < 0 ? "negative" : "Zero"
+
+    document.write(result)
 
     
 
