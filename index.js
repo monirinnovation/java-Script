@@ -167,30 +167,49 @@ else if (marks <40 && marks >= 33 )
     // document.write(result)
 
     
-  let digit = prompt("Enter a digit");
+//   let digit = prompt("Enter a digit");
 
-  switch(digit){
-    case "0":
-    document.write("Zero");
-    break
-    case "1":
-    document.write("One");
-    break
-    case "2":
-    document.write("Two");
-    break
-    case "3":
-    document.write("Three");
-    break
-    case "4":
-    document.write("Four");
-    break
-    case "5":
-    document.write("Five");
-    break
+//   switch(digit){
+//     case "0":
+//     document.write("Zero");
+//     break
+//     case "1":
+//     document.write("One");
+//     break
+//     case "2":
+//     document.write("Two");
+//     break
+//     case "3":
+//     document.write("Three");
+//     break
+//     case "4":
+//     document.write("Four");
+//     break
+//     case "5":
+//     document.write("Five");
+//     break
 
-    default:
-    document.write("not a digit")
+//     default:
+//     document.write("not a digit")
 
-  }
+//   }
 
+let letter = prompt("Enter a letter");
+
+ letter = letter.toLowerCase();
+
+switch(letter){
+    case "a":
+        document.write("Vowel")
+        break
+    case "e":
+        document.write("Vowel")
+        break
+    case "i": 
+    case "o":
+    case "u":
+        document.write("Vowel")   
+        break
+        default:
+            document.write("Consonant")    
+}
