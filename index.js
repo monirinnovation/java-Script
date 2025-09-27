@@ -153,7 +153,7 @@ else if (marks <40 && marks >= 33 )
     else 
         document.write(num3)*/
 
-    let num = prompt("Enter a letter");
+    // let num = prompt("Enter a letter");
 
     // if (letter == "a" || letter== "e" || letter == "i" || letter == "o" || letter == "u" || letter == "A" || letter==  "E" || letter == "I" || letter == "O" || letter== "U")
     //     document.write("Vowel")
@@ -162,9 +162,35 @@ else if (marks <40 && marks >= 33 )
 
     // ternary operator
 
-    let result = num > 0 ? "Positive" : num < 0 ? "negative" : "Zero"
+    // let result = num > 0 ? "Positive" : num < 0 ? "negative" : "Zero"
 
-    document.write(result)
+    // document.write(result)
 
     
+  let digit = prompt("Enter a digit");
+
+  switch(digit){
+    case "0":
+    document.write("Zero");
+    break
+    case "1":
+    document.write("One");
+    break
+    case "2":
+    document.write("Two");
+    break
+    case "3":
+    document.write("Three");
+    break
+    case "4":
+    document.write("Four");
+    break
+    case "5":
+    document.write("Five");
+    break
+
+    default:
+    document.write("not a digit")
+
+  }
 
