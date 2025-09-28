@@ -194,22 +194,24 @@ else if (marks <40 && marks >= 33 )
 
 //   }
 
-let letter = prompt("Enter a letter");
+// let letter = prompt("Enter a letter");
 
- letter = letter.toLowerCase();
+//  letter = letter.toLowerCase();
 
-switch(letter){
-    case "a":
-        document.write("Vowel")
-        break
-    case "e":
-        document.write("Vowel")
-        break
-    case "i": 
-    case "o":
-    case "u":
-        document.write("Vowel")   
-        break
-        default:
-            document.write("Consonant")    
+// switch(letter){
+//     case "a":
+//     case "e":   
+//     case "i": 
+//     case "o":
+//     case "u":
+//         document.write("Vowel")   
+//         break
+//         default:
+//             document.write("Consonant")    
+// }
+
+
+for ( let x = 10; x >= 1; x = x - 1){
+    document.write( " "  +  x ) ; 
+
 }
