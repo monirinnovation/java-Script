@@ -211,7 +211,32 @@ else if (marks <40 && marks >= 33 )
 // }
 
 
-for ( let x = 10; x >= 1; x = x - 1){
-    document.write( " "  +  x ) ; 
+// for ( let x = 10; x >= 1; x = x - 1){
+//     document.write( " "  +  x ) ; 
 
+// }
+
+
+// let age = prompt("Enter your age ")
+//  if (age <= 18)
+//  document.write("You cannot drive")
+ 
+//  else
+//     document.write("You can drive")
+
+
+//  let support = prompt("Who do you support")
+
+//  if (support.toLowerCase()== "pakistan  ")
+//     document.write("You are welcome")
+
+// else 
+//     document.write("Your not welcome")
+
+let i = 1;
+
+while(i <=5)
+{
+    document.write(" " +i)
+    i = i  +1
 }
