@@ -241,11 +241,35 @@ else if (marks <40 && marks >= 33 )
 //     i = i  +1
 // }
 
-for (let i = 1; i <=100; i ++){
+// for (let i = 1; i <=100; i ++){
 
- document.write(" "+ i)
+//  document.write(" "+ i)
 
- if (i ==10){
-        break;
+//  if (i ==10){
+//         break;
+//     }
+// }
+
+
+for (let i = 1; i <= 100; i  ++)
+{
+    
+ if (i % 3 && i %5 ===0){
+        document.write("FizzBuzz" +"<br/>")
     }
+
+    else if (i %3 === 0){
+        document.write(" Fizz" +"<br/>")
+    } else if (i % 5 === 0){
+        document.write("Buzz" + "<br/>")
+    } else{
+
+        document.write(i + "<br/>") 
+    }
+   
+
 }
+    
+    
+   
+    
