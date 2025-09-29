@@ -233,10 +233,19 @@ else if (marks <40 && marks >= 33 )
 // else 
 //     document.write("Your not welcome")
 
-let i = 1;
+// let i = 1;
 
-while(i <=5)
-{
-    document.write(" " +i)
-    i = i  +1
+// while(i <=5)
+// {
+//     document.write(" " +i)
+//     i = i  +1
+// }
+
+for (let i = 1; i <=100; i ++){
+
+ document.write(" "+ i)
+
+ if (i ==10){
+        break;
+    }
 }
